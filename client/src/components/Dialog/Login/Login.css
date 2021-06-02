@@ -1,0 +1,24 @@
+.makeStyles-root-171 .MuiTextField-root {
+  display: flex;
+  justify-content: center;
+}
+
+.toggleButton {
+  color: #018786;
+  font-weight: 500;
+}
+
+.toggleButton:hover {
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  height: 56px;
+}
+
+.alertAcknowledgement {
+  display: flex;
+  justify-content: center;
+}

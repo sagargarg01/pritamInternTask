@@ -1,0 +1,32 @@
+.dialogFormContainer::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.dialogFormContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* custom input field colour */
+.MuiFormLabel-root.Mui-focused {
+  color: #018786 !important;
+}
+
+.MuiAlert-standardError {
+  width: 375px;
+}
+
+.dialogFormContainer > div {
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
